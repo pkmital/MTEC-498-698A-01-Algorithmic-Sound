@@ -28,37 +28,55 @@ We'll continue with developing a sampler that can record and playback audio.  Th
 
 In case there is any material we needed more time for + use class time with the TA to develop your first project.
 
-### Session 05 - 02/20/18 - First Project Presentations
-
-### Session 06 - 02/27/18 - Granular Synthesis
+### Session 05 - 02/20/18 - First Project Presentations + Granular Synthesis
 
 This session covers two methods for loading samples, maxiSample and pkmEXTAudio methods for reading and saving any audio format using Apples EXTAudio format.  Finally, we look at how to use maximilian's granular synthesis engine to independently pitch and time stretch the amen break.
 
-### Session 07 - 03/06/18 - Advanced Audio Analysis
+
+### Session 06 - 02/27/18 - Advanced Audio Analysis
 
 We'll look at the DFT, Mel Transform, Circular Buffers, and MFCCs for audio fingerprinting and analysis.  We'll then see how to organize sound using some of these features.
 
-### Session 08 - 03/13/18 - Overflow + Project Week
+
+### Session 07 - 03/06/18 - Overflow + Project Week
 
 Use class time with the TA to develop your first project.
 
-### Session 09 - 03/20/18 - Second Project Presentations
-
-### Session 10 - 03/27/18 - Sprint Break
-
-### Session 11 - 04/03/18 - Machine Learning Part I
+### Session 08 - 03/13/18 - Second Project Presentations + Machine Learning Part I
 
 We will explore the use of kNN and tSNE for concatenative synthesis and visual exploration of a grain cloud.
 
-### Session 12 - 04/10/18 - Machine Learning Part II
+### Session 09 - 03/20/18 - Machine Learning Part II
 
 We'll explore the use of k-means clustering and markov chains for generative concatenative synthesis.
+ 
 
-### Session 13 - 04/17/18 - Overflow + Project Week
+### Session 10 - 03/27/18 - Sprint Break
 
-### Session 14 - 04/24/18 - Final Project Presentations
-
-### Session 15 - 05/01/18 - Extra Material
+### Session 11 - 04/03/18 - Ambisonics, Binaural, and 3D Sound
 
 HRTF and binaural audio synthesis, iOS ARKit and tracking, 3D sound.
 
+### Session 12 - 04/10/18 - Overflow + Project Week
+
+### Session 13 - 04/17/18 - Final Project Presentations
+
+### Session 14 - 04/24/18 - Extra Material
+
+### Session 15 - 05/01/18 - Extra Material
+
+
+## Grading
+
+* 25 percent for weekly homeworks
+* 50 percent for 3 projects
+* 25 percent for attendance
+
+## Website
+
+* Make sure you have enrolled on learn.calarts.edu
+* Use this github and learn.calarts.edu to find up to date homework information
+
+## Expo
+
+* Classes will end 
