@@ -49,7 +49,9 @@ This session will introduce you Algorithmic Sound, a field that tries to generat
 
 a.k.a. procedural sound, generative sound
 
-* Algorithmic: Set of rules define the outcome.
+Algorithm: computational procedure for solving a problem (Al-Khwarizmi, roots for Algebra as well).
+
+* Algorithmic: Computational procedure for solving a problem.
 * Nonlinear:  Building interaction into the narrative.
 * Procedural:  Dependent on behavior.
 * Agency:  Often the procedural nature indicates a sound object or some source.
