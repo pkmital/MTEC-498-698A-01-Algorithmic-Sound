@@ -68,7 +68,7 @@ HRTF and binaural audio synthesis, iOS ARKit and tracking, 3D sound.
 
 ## Grading
 
-* 25 percent for weekly homeworks
+* 25 percent for homeworks
 * 50 percent for 3 projects
 * 25 percent for attendance
 
@@ -79,4 +79,4 @@ HRTF and binaural audio synthesis, iOS ARKit and tracking, 3D sound.
 
 ## Expo
 
-* Classes will end 
+Students are encouraged to develop their final projects further into exhibits for the Digital Arts Expo.  For this reason, we will not ask students to be assessed on any material past 4/20, and final project presentations will be on 4/17 instead.  This will give you a few weeks to refine your work into an exhibit worthy project and ensure there is less overlap on demands for final projects along with the pressure of the expo.

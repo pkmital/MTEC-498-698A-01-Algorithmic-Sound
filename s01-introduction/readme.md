@@ -52,9 +52,9 @@ a.k.a. procedural sound, generative sound
 Algorithm: computational procedure for solving a problem (Al-Khwarizmi, roots for Algebra as well).
 
 * Algorithmic: Computational procedure for solving a problem.
-* Nonlinear:  Building interaction into the narrative.
-* Procedural:  Dependent on behavior.
-* Agency:  Often the procedural nature indicates a sound object or some source.
+* Nonlinear:  As compared to a recorded piece of audio, the audio can be dynamic, ever-changing.
+* Procedural:  Depends on inputs, outputs, time, behavior, sensors, etc...
+* Agency:  Can build a sense of being/self/ego by incorporating movement, position, continuity.
 
 <a name="why"></a>
 ## Why?
@@ -68,12 +68,12 @@ This course will emphasize techniques that target more "low-level" organization 
 <a name="challenges"></a>
 ## Challenges?
 
-* Dynamic
-* Narrative
-* Long term structure
-* Coupling interaction
-* Overcoming 1:1 correlation with audio/vision
-* Beyond "one-size-fits-all" approaches
+* Dynamic: we want an algorithm that allows us to explore many outputs.
+* Narrative: we want to be able to develop a story, relate the ideas the algorithm tries to portray in the result.
+* Long term structure: we want to be able to relate ideas over longer periods of time, not just instants of time.
+* Coupling interaction: we want to be able to allow users/viewers/listeners to change the process.
+* Overcoming 1:1 correlation with audio/vision: we want to be able to allow the design of sound to follow trajectories that build continuity across changes in visual media.
+* Beyond "one-size-fits-all" approaches: we want to understand the constraints of our work.
 
 <a name="application-fields"></a>
 ## Application Fields
