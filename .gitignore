@@ -1,3 +1,4 @@
+*.swp
 *.app
 *.dylib
 *.so
