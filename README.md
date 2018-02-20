@@ -28,10 +28,9 @@ We'll continue with developing a sampler that can record and playback audio.  Th
 
 In case there is any material we needed more time for + use class time with the TA to develop your first project.
 
-### Session 05 - 02/20/18 - First Project Presentations + Granular Synthesis
+### Session 05 - 02/20/18 - First Project Presentations + Maximilian AM/FM, Sample Loading, and Granular Synthesis
 
-This session covers two methods for loading samples, maxiSample and pkmEXTAudio methods for reading and saving any audio format using Apples EXTAudio format.  Finally, we look at how to use maximilian's granular synthesis engine to independently pitch and time stretch the amen break.
-
+This session covers maximilian, a c++ library for audio synthesis.  We look at oscillators, AM, FM, delay lines, filters, also two methods for loading samples, maxiSample and pkmEXTAudio methods for reading and saving any audio format using Apples EXTAudio format.  Finally, we look at how to use maximilian's granular synthesis engine to independently pitch and time stretch the amen break.
 
 ### Session 06 - 02/27/18 - Advanced Audio Analysis
 
