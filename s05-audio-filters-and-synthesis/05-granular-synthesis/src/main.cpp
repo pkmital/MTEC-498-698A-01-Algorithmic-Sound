@@ -19,9 +19,9 @@ class ofApp : public ofBaseApp{
         void setupGUI(){
             gui.setup("Parameters");
             ofParameterGroup g;
-            g.setName("Audio");
-            g.add(speed.set("speed", -0.5, -1.0, 1.0));
-            g.add(rate.set("rate", 0.5, -1.0, 1.0));
+            g.setName("Granular Engine");
+            g.add(speed.set("speed", -0.5, -2.0, 2.0));
+            g.add(rate.set("rate", 0.5, -2.0, 2.0));
             g.add(grainLength.set("grainLength", 0.05, 0.001, 0.25));
             g.add(overlaps.set("overlaps", 2, 1, 10));
             gui.add(g);
@@ -52,18 +52,13 @@ class ofApp : public ofBaseApp{
     private:
         maxiSample sample1;
         maxiTimePitchStretch<hannWinFunctor, maxiSample> *ts;
-        ofParameter<float> rate, speed, grainLength, overlaps;
+        ofParameter<float> rate, speed, grainLength;
+        ofParameter<int> overlaps;
         ofxPanel gui;
 };
 
 
-//========================================================================
 int main( ){
-	ofSetupOpenGL(1024,768,OF_WINDOW);			// <-------- setup the GL context
-
-	// this kicks off the running of my app
-	// can be OF_WINDOW or OF_FULLSCREEN
-	// pass in width and height too:
+	ofSetupOpenGL(1024, 768, OF_WINDOW);
 	ofRunApp(new ofApp());
-
 }
