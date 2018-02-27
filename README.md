@@ -32,10 +32,9 @@ In case there is any material we needed more time for + use class time with the 
 
 This session covers maximilian, a c++ library for audio synthesis.  We look at oscillators, AM, FM, delay lines, filters, also two methods for loading samples, maxiSample and pkmEXTAudio methods for reading and saving any audio format using Apples EXTAudio format.  Finally, we look at how to use maximilian's granular synthesis engine to independently pitch and time stretch the amen break.
 
-### Session 06 - 02/27/18 - Advanced Audio Analysis
+### Session 06 - 02/27/18 - Advanced Audio and Visual Analysis
 
-We'll look at the DFT, Mel Transform, Circular Buffers, and MFCCs for audio fingerprinting and analysis.  We'll then see how to organize sound using some of these features.
-
+We'll cover basic computer graphics including virtual cameras, meshes, shaders, and frame buffers. We'll then see how to do some computer vision such as understanding colorspaces, frame differencing, and optical flow, and show how to build a mesh that uses optical flow to distort it. We'll then look at the DFT, Mel Transform, and MFCCs for audio fingerprinting and analysis.
 
 ### Session 07 - 03/06/18 - Overflow + Project Week
 
