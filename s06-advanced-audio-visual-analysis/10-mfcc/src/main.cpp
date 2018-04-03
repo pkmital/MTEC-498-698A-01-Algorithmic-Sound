@@ -11,6 +11,22 @@ class ofApp : public ofBaseApp{
             height = 256;
             ofSetWindowShape(width, height * 3);
             
+            vector<maxiSample> samples;
+            // load 10 maxisamples
+            
+            vector<vector<double>> mfcc_buffer;
+            for (int i = 0; i < 10; i ++) {
+                maxiFFT fft;
+                maxiMFCC mfcc;
+                for(int i = 0; i < buffer_size * n_channels; i += n_channels)
+                {
+                    float sample = samples[i].play();
+                    if(fft.process(sample) {
+                        mfcc.mfcc(fft.magnitudes, &(mfcc_buffer[i][0]));
+                    }
+                }
+            }
+                
             setupAudio();
         }
     

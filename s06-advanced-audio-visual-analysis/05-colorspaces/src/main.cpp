@@ -22,7 +22,7 @@ public:
         ofSetFrameRate(30);
         
         // setup the camera
-        camera.initGrabber(img_width, img_height);
+        camera.setup(img_width, img_height);
         
         // create some ofxOpenCv images.  ofxCvColorImage can hold color images
         im_color.allocate(img_width, img_height);
