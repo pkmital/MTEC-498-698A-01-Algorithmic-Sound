@@ -32,9 +32,8 @@ public:
 
     void draw() {
         shader.begin();
-        
+        shader.setUniform1f("color", mouseX / (float)width);
         ofDrawRectangle(0, 0, width, height);
-        
         shader.end();
     }
     

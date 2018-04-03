@@ -6,7 +6,7 @@ public:
     void setup() {
         width = 1280;
         height = 720;
-        grabber.initGrabber(width, height);
+        grabber.setup(width, height);
         depths.resize(width * height);
         ofSetVerticalSync(true);
 //        ofEnableDepthTest();
@@ -14,10 +14,11 @@ public:
     }
     void update() {
         grabber.update();
-        if (grabber.isFrameNew()) {
+        if (grabber.isFrameNew())
+        {
             auto pixels = grabber.getPixels();
             mesh.clear();
-            mesh.setMode(OF_PRIMITIVE_POINTS);
+            mesh.setMode(OF_PRIMITIVE_LINE_STRIP);
             for(int y = 0; y < height; y++) {
                 for(int x = 0; x < width; x++) {
                     ofColor cur = pixels.getColor(x, y);

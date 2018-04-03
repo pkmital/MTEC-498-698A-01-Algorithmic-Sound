@@ -12,7 +12,7 @@ public:
         
         // setup the camera
         grabber.setDesiredFrameRate(30);
-        grabber.initGrabber(320, 240);
+        grabber.setup(320, 240);
     }
     
     void update(){

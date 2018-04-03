@@ -1,0 +1,4 @@
+ofxGui
+ofxLearn
+ofxMaxim
+ofxOsc

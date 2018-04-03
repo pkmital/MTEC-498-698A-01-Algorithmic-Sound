@@ -70,6 +70,9 @@ public:
             // copy the pixels from the camera object into an ofxCvColorImage object
             img.setFromPixels(camera.getPixels());
             
+            for(int i = 0; i < 10; i++)
+                img.blurGaussian();
+            
             // convert our rgb color image to hsv
             img.convertRgbToHsv();
             

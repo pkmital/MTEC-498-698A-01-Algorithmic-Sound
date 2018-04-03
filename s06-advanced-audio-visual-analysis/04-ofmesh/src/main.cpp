@@ -24,6 +24,7 @@ public:
         {
             auto pixels = grabber.getPixels();
             meshes.clear();
+            
             for(int y = 0; y < height; y++) {
                 ofMesh mesh;
                 mesh.setMode(OF_PRIMITIVE_LINE_STRIP);

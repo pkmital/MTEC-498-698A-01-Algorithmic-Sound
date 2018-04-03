@@ -26,6 +26,8 @@ class ofApp : public ofBaseApp{
             g.add(overlaps.set("overlaps", 2, 1, 10));
             gui.add(g);
             
+            ofParameterGroup g2;
+            
             gui.loadFromFile("settings.xml");
         }
     
