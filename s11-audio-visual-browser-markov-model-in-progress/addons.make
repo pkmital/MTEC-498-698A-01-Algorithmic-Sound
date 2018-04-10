@@ -1,4 +1,0 @@
-ofxGui
-ofxLearn
-ofxMaxim
-ofxOsc
